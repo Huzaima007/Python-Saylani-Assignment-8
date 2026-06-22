@@ -17,6 +17,8 @@ p2 = Person("Ahmed", 25, "Turkey")
 p1.display()
 print()
 p2.display()
+
+
 # 2. Rectangle Class
 
 class Rectangle:
@@ -34,6 +36,8 @@ r = Rectangle(5, 10)
 
 print("Area:", r.area())
 print("Perimeter:", r.perimeter())
+
+
 # 3. Vehicle and Car
 
 class Vehicle:
@@ -55,6 +59,8 @@ class Car(Vehicle):
 
 c = Car("Toyota", "Corolla", 2022, 4)
 c.display()
+
+
 # 4. BankAccount
 
 class BankAccount:
@@ -74,6 +80,8 @@ acc.deposit(500)
 acc.withdraw(300)
 
 print("Balance:", acc.balance)
+
+
 # 5. Shape, Circle and Triangle
 
 class Shape:
@@ -100,6 +108,8 @@ print("Circle Area:", c.area())
 
 t = Triangle(10, 5)
 print("Triangle Area:", t.area())
+
+
 # 6. Employee and Manager
 
 class Employee:
@@ -123,6 +133,8 @@ m2 = Manager("Ahmed", 60000, "HR")
 
 print(m1.annual_salary())
 print(m2.annual_salary())
+
+
 # 7. Book and Ebook
 
 class Book:
@@ -145,6 +157,8 @@ class Ebook(Book):
 e = Ebook("Python", "John", 2023, 500)
 
 e.display()
+
+
 # 8. Animal and Dog
 
 class Animal:
@@ -165,6 +179,8 @@ class Dog(Animal):
 
 d = Dog("Dog", "Woof", "Brown")
 d.make_sound()
+
+
 # 9. Bank Class
 
 class Bank:
@@ -188,6 +204,8 @@ b.add_branch("Lahore")
 b.remove_branch("Lahore")
 
 b.display_branches()
+
+
 # 10. Product and PersonalCareProduct
 
 class Product:
@@ -210,6 +228,8 @@ class PersonalCareProduct(Product):
 p = PersonalCareProduct(1, "Trimmer", 2000, 2)
 
 print("Total Price:", p.total_price(3))
+
+
 # 11. BankAccount with Transfer
 
 class BankAccount:
@@ -237,6 +257,8 @@ a1.transfer(a2, 1000)
 
 print(a1.balance)
 print(a2.balance)
+
+
 # 12. University Class
 
 class University:
